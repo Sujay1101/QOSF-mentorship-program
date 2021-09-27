@@ -4,13 +4,13 @@ This repository contains code for a partial solution to task1 of cohort 4 screen
 There are 4 ipynb files in the repository
 
 ## 1. qRAM.ipynb
-The qram has two qubit address as input and one qubit output
+The qram has two qubit address as input and two qubit output
 
 ### Storing in qRAM
-If at a position in input array the number satisfies the stated conditions then at that address in qram ,1| will be stored
+If at a position in input array the number satisfies the stated conditions then at that address in qram <1| will be stored
 
 ### Querying the qRAM
-Input address to qram will produce output <1| if at that address in the qram <1| is stored
+Input address to qram will produce output <1|<1| if at that address in the qram <1| is stored and <0|<0| if at that address in the qram <0| is stored
 
 ![qRAM circuit](/Images/qram.png)
 
@@ -22,9 +22,9 @@ The oracle has 4 qubits as input and 2 qubits as output
 
 Two input qubits are control qubits and they always have same value
 
-If the control qubits are 1 then phase of the 2 qubit state is flipped
+If the control qubits are <1| then phase of the 2 qubit state is flipped
 
-If the control qubits are 0 then phase of the 2 qubit state is not flipped
+If the control qubits are <0| then phase of the 2 qubit state is not flipped
 
 ![Oracle circuit](/Images/oracle.png)
 
