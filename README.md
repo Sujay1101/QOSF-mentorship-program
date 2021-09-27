@@ -7,10 +7,12 @@ There are 3 ipynb files in the repository
 The qram has two qubit address as input and one qubit output
 
 ### Storing in qRAM
-If at a position in input array the number satisfies the stated conditions then at that address in qram 1 will be stored
+If at a position in input array the number satisfies the stated conditions then at that address in qram ,1| will be stored
 
 ### Querying the qRAM
 Input address to qram will produce output <1| if at that address in the qram <1| is stored
+
+![qRAM circuit](/Images/qRAM.png)
 
 ## Oracle.ipynb
 This program implements the oracle circuit of the Grover's algorithm
@@ -24,10 +26,14 @@ If the control qubits are 1 then phase of the 2 qubit state is flipped
 
 If the control qubits are 0 then phase of the 2 qubit state is not flipped
 
+![Oracle circuit](/Images/oracle.png)
+
 ## Diffuser.ipynb
 This program implements the diffuser circuit of the Grover's algorithm
 
 The output of diffuser is rotation of input state about the starting state of algorithm
+
+![Diffuser circuit](/Images/diffuser.png)
 
 ## Circuit.ipynb
 This program combines the qram, oracle and diffuser circuit.
