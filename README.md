@@ -12,7 +12,7 @@ If at a position in input array the number satisfies the stated conditions then 
 ### Querying the qRAM
 Input address to qram will produce output <1| if at that address in the qram <1| is stored
 
-![qRAM circuit](/Images/qRAM.png)
+![qRAM circuit](/Images/qram.png)
 
 ## 2. Oracle.ipynb
 This program implements the oracle circuit of the Grover's algorithm
