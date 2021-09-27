@@ -46,4 +46,4 @@ Following are the steps in circuit.ipynb
 
 
 ## Block diagram of circuit
-![block diagram of circuit](/Images/complete_circuit.jpeg)
+![block diagram of circuit](/Images/Complete_Circuit.jpeg)
