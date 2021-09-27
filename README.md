@@ -1,9 +1,9 @@
 # QOSF-mentorship-program
 This repository contains code for a partial solution to task1 of cohort 4 screening tasks for the QOSF mentorship program
 
-There are 3 ipynb files in the repository
+There are 4 ipynb files in the repository
 
-## qRAM.ipynb
+## 1. qRAM.ipynb
 The qram has two qubit address as input and one qubit output
 
 ### Storing in qRAM
@@ -14,7 +14,7 @@ Input address to qram will produce output <1| if at that address in the qram <1|
 
 ![qRAM circuit](/Images/qRAM.png)
 
-## Oracle.ipynb
+## 2. Oracle.ipynb
 This program implements the oracle circuit of the Grover's algorithm
 
 ### Working of oracle
@@ -28,14 +28,14 @@ If the control qubits are 0 then phase of the 2 qubit state is not flipped
 
 ![Oracle circuit](/Images/oracle.png)
 
-## Diffuser.ipynb
+## 3. Diffuser.ipynb
 This program implements the diffuser circuit of the Grover's algorithm
 
 The output of diffuser is rotation of input state about the starting state of algorithm
 
 ![Diffuser circuit](/Images/diffuser.png)
 
-## Circuit.ipynb
+## 4. Circuit.ipynb
 This program combines the qram, oracle and diffuser circuit.
 
 Following are the steps in circuit.ipynb
