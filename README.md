@@ -43,3 +43,7 @@ Following are the steps in circuit.ipynb
 2. Load <0| or <1| in qram according to input array
 3. Pass the equal superposition and output of qram throgh the oracle of grover's algorithm
 4. Pass the output of oracle throgh a diffuser. 
+
+
+## Block diagram of circuit
+![block diagram of circuit](/Images/complete_circuit.jpeg)
